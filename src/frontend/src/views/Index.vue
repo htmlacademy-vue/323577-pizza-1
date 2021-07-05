@@ -84,7 +84,7 @@
                   <p>Основной соус:</p>
 
                   <label
-                    v-for="(item, i) of sauces"
+                    v-for="(item, i) of saucesData"
                     :key="item.value"
                     class="radio ingridients__input"
                   >
